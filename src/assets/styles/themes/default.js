@@ -5,11 +5,16 @@ export default {
       lighter: '#E0E2FF',
       light: '#6674F4',
       main: '#5061FC',
-      dark: '#33F6F8',
+      dark: '#2D3896',
     },
     gray: {
       900: '#222222',
       200: '#BCBCBC',
+    },
+    danger: {
+      light: '#F97171',
+      main: '#FC5050',
+      dark: '#F63131',
     },
   },
 };
