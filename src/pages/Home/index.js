@@ -25,9 +25,7 @@ export default function Home() {
         const json = await response.json();
         setContacts(json);
       })
-      .catch((error) => {
-        console.log('error', error);
-      });
+      .catch();
   }, [orderBy]);
 
   function handleToggleOrderBy() {
