@@ -1,5 +1,16 @@
+import PageHeader from '../../components/PageHeader';
+import ContactForm from '../../components/ContactForm';
+
 export default function EditContact() {
   return (
-    <h1>EditContact</h1>
+    <>
+      <PageHeader
+        title="Editar Endriw Schiavenato"
+      />
+
+      <ContactForm
+        buttonLabel="Salvar alterações"
+      />
+    </>
   );
 }
